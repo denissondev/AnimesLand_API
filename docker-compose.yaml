@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: sqlserver
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "Madar@Uch1ha"
+      ACCEPT_EULA: "Y"
+    networks:
+      - anime_network
+
+  api:
+    build: .
+    container_name: anime_api
+    restart: always
+    depends_on:
+      - sqlserver
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=AnimeDb;User Id=sa;Password=Madar@Uch1ha;TrustServerCertificate=True
+    ports:
+      - "5000:5000"
+    networks:
+      - anime_network
+
+networks:
+  anime_network:
+    driver: bridge
