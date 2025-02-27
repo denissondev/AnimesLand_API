@@ -14,3 +14,13 @@
 2025-02-27 16:40:59.537 -03:00 [INF] Hosting environment: Development
 2025-02-27 16:40:59.834 -03:00 [INF] Content root path: C:\Users\FLÁVIO\Desktop\Project\AnimesLand_API\AnimesLand.Api
 2025-02-27 16:43:17.595 -03:00 [INF] Application is shutting down...
+2025-02-27 16:47:23.606 -03:00 [INF] Now listening on: http://localhost:5263
+2025-02-27 16:47:23.959 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-27 16:47:24.111 -03:00 [INF] Hosting environment: Development
+2025-02-27 16:47:24.301 -03:00 [INF] Content root path: C:\Users\FLÁVIO\Desktop\Project\AnimesLand_API\AnimesLand.Api
+2025-02-27 16:47:39.380 -03:00 [INF] Application is shutting down...
+2025-02-27 16:53:43.976 -03:00 [INF] Now listening on: http://localhost:5263
+2025-02-27 16:53:44.094 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-27 16:53:44.097 -03:00 [INF] Hosting environment: Development
+2025-02-27 16:53:44.098 -03:00 [INF] Content root path: C:\Users\FLÁVIO\Desktop\Project\AnimesLand_API\AnimesLand.Api
+2025-02-27 16:53:56.311 -03:00 [INF] Application is shutting down...
