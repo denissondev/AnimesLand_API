@@ -5,20 +5,24 @@ using System.Reflection;
 using AnimesLand.Infrastructure.Logging;
 using Serilog;
 using AnimesLand.Infrastructure.Middleware;
+using AnimesLand.Application.Features.Animes.Commands;
+using AnimesLand.Infrastructure.Repositories;
+using AnimesLand.Domain.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AnimeDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateAnimeCommandHandler)));
+
+builder.Services.AddScoped<IAnimeRepository, AnimeRepository>();
 
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configurar Serilog
 LoggingConfiguration.ConfigureLogging();
 builder.Host.UseSerilog();
 
