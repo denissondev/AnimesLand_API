@@ -3,9 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using MediatR;
 using AnimesLand.Application.Features.Animes.Queries;
 
-namespace AnimesLand.Api.Controllers
+namespace AnimesLand.Api.Controllers.v1
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
     [ApiController]
     public class AnimesController : ControllerBase
     {
