@@ -1,0 +1,26 @@
+# Ignorar diretórios de build
+[Bb]in/
+[Oo]bj/
+
+# Ignorar arquivos de cache e logs
+*.cache
+*.log
+*.suo
+*.user
+*.userprefs
+*.lock.json
+*.sourcelink.json
+*.FileListAbsolute.txt
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.csproj.AssemblyReference.cache
+*.csproj.CoreCompileInputs.cache
+
+# Ignorar arquivos de depuração
+*.pdb
+*.dll
+*.exe
+
+# Ignorar arquivos de referência
+ref/
+refint/

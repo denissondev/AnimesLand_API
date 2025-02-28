@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimesLand.Api", "AnimesLand.Api\AnimesLand.Api.csproj", "{B95813A8-F348-4E45-B03C-99305F0FE8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimesLand.Application", "AnimesLand.Application\AnimesLand.Application.csproj", "{CBEC20DB-4950-403F-9863-F766441A5DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimesLand.Domain", "AnimesLand.Domain\AnimesLand.Domain.csproj", "{F9CB42D8-AFCB-4CC0-A864-0909A2113257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimesLand.Infrastructure", "AnimesLand.Infrastructure\AnimesLand.Infrastructure.csproj", "{5143B708-0952-43D6-8AC5-CE35AF4F6B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95813A8-F348-4E45-B03C-99305F0FE8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95813A8-F348-4E45-B03C-99305F0FE8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95813A8-F348-4E45-B03C-99305F0FE8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95813A8-F348-4E45-B03C-99305F0FE8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEC20DB-4950-403F-9863-F766441A5DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEC20DB-4950-403F-9863-F766441A5DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEC20DB-4950-403F-9863-F766441A5DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEC20DB-4950-403F-9863-F766441A5DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CB42D8-AFCB-4CC0-A864-0909A2113257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CB42D8-AFCB-4CC0-A864-0909A2113257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CB42D8-AFCB-4CC0-A864-0909A2113257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CB42D8-AFCB-4CC0-A864-0909A2113257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5143B708-0952-43D6-8AC5-CE35AF4F6B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5143B708-0952-43D6-8AC5-CE35AF4F6B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5143B708-0952-43D6-8AC5-CE35AF4F6B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5143B708-0952-43D6-8AC5-CE35AF4F6B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
