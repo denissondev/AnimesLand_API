@@ -29,7 +29,6 @@ builder.Services.AddControllers();
 
 builder.Services.AddSwaggerGen();
 
-// Configurar Serilog
 LoggingConfiguration.ConfigureLogging();
 builder.Host.UseSerilog();
 
